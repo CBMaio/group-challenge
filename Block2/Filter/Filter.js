@@ -27,6 +27,8 @@ const filter = (arr) => {
         if (!array1.includes(elementos))
             array1.push(elementos);
     }
+
+    return array1;
 }
 
 console.log(filter(array1))
